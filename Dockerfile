@@ -1,4 +1,4 @@
 FROM openjdk
 EXPOSE 8080
-ADD target/AreaCalculator.jar AreaCalculator.jar
-ENTRYPOINT ["java", "-jar", "/AreaCalculator.jar"]
+ADD target/AreaCalculator.jar areaCalculator.jar
+ENTRYPOINT ["java", "-jar", "/areaCalculator.jar"]
